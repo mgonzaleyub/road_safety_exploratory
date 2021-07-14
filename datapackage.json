@@ -1,0 +1,87 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "resource1",
+      "path": "data.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "index",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "Country",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Year",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "Area (thousands of km)",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "Population",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "GDP per capita",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "Population density (inhabitants per km2)",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "Vehicle ownership",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "Total Road Deaths",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "Road deaths per Million Inhabitants",
+            "type": "integer",
+            "format": "default"
+          }
+        ]
+      }
+    }
+  ],
+  "keywords": [
+    "dataset",
+    "wikipedia",
+    "eda",
+    "road"
+  ],
+  "name": "manuel-data",
+  "title": "manuel-data-package",
+  "description": "This is the webscraped and preprocessed data from Wikipedia  Road safety data in Europe website.",
+  "homepage": "https://mgonzaleyub.github.io/",
+  "contributors": [
+    {
+      "title": "Manuel G",
+      "role": "author"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-SA-4.0",
+      "title": "Creative Commons Attribution Share-Alike 4.0",
+      "path": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  ]
+}
